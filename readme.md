@@ -1,17 +1,17 @@
-# cancellation
+# Process signals
 
-[![npm package](https://img.shields.io/npm/v/@dmail/cancellation.svg)](https://www.npmjs.com/package/@dmail/cancellation)
-[![build](https://travis-ci.com/dmail/cancellation.svg?branch=master)](http://travis-ci.com/dmail/cancellation)
-[![codecov](https://codecov.io/gh/dmail/cancellation/branch/master/graph/badge.svg)](https://codecov.io/gh/dmail/cancellation)
+[![npm package](https://img.shields.io/npm/v/@dmail/process-signals.svg)](https://www.npmjs.com/package/@dmail/process-signals)
+[![build](https://travis-ci.com/dmail/process-signals.svg?branch=master)](http://travis-ci.com/dmail/process-signals)
+[![codecov](https://codecov.io/gh/dmail/process-signals/branch/master/graph/badge.svg)](https://codecov.io/gh/dmail/process-signals)
 
-> Cancel asynchronous operations, compatible with await
+> Register callback for node process interuption, beforeExit, crash...
 
 ## Installation
 
 ```
-npm i @dmail/cancellation
+npm i @dmail/process-signals
 ```
 
-## Example
+## How to use
 
-— see [test/](./test) for concrete examples
+No documentation available, for now documentation is source code.
