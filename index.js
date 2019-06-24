@@ -1,0 +1,5 @@
+export { registerUngaranteedProcessBeforeExitCallback } from "./src/before-exit.js"
+export { registerUnadvisedProcessCrashCallback } from "./src/crash.js"
+export { registerProcessExitCallback } from "./src/exit.js"
+export { registerProcessInterruptCallback } from "./src/interrupt.js"
+export { registerUngaranteedProcessTeardown } from "./src/teardown.js"
