@@ -12,7 +12,10 @@ export const registerProcessExitCallback = (callback) => {
     exceptionArray = exceptionArray.filter((exceptionArray) => exceptionArray.promise !== promise)
   }
 
-  const uncaughtExceptionCallback = (uncaughtException) => {
+  const uncaughtExceptionCallback = (uncaughtException, origin) => {
+    // since node 12.4 https://nodejs.org/docs/latest-v12.x/api/process.html#process_event_uncaughtexception
+    if (origin === "unhandledRejection") return
+
     exceptionArray = [
       ...exceptionArray,
       { origin: "uncaughtException", exception: uncaughtException },
